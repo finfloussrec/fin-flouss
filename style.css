@@ -4,14 +4,15 @@
     --red: #ff0000;
   }
 
-  #contt{padding-left: 7rem;}
+  #contt{padding-left: 10rem;}
 
   .immaginihome {padding: 0;}
   .immaginihome2 {padding: 0;}
 
   #atrezzatura { background-color: var(--black);
     color: white;
-    padding: 7rem;}
+    padding: 7rem;
+  padding-left: 3rem; padding-right: 3rem;}
   #atrezzatura ul {padding: 4;}
 
   
@@ -21,6 +22,8 @@
     color: rgb(255, 255, 255);
     padding-top: 2rem;
     padding: 7rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   
   section:nth-of-type(1) h2 {
@@ -55,6 +58,8 @@
     background-color: var(--black);
     color: white;
     padding: 7rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   
   section:nth-of-type(3) h2 {
@@ -81,7 +86,7 @@
 /* Stile del testo */
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 2;
   color: #000000;
  margin: 0;
