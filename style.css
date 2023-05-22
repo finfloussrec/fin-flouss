@@ -1,0 +1,362 @@
+/* Colori */
+:root {
+    --black: #000000;
+    --red: #ff0000;
+  }
+
+  #contt{padding-left: 7rem;}
+
+  .immaginihome {padding: 0;}
+  .immaginihome2 {padding: 0;}
+
+  #atrezzatura { background-color: var(--black);
+    color: white;
+    padding: 7rem;}
+  #atrezzatura ul {padding: 4;}
+
+  
+  /* Services */
+  section:nth-of-type(1) {
+    background-color: var(--black);
+    color: rgb(255, 255, 255);
+    padding-top: 2rem;
+    padding: 7rem;
+  }
+  
+  section:nth-of-type(1) h2 {
+    color: white; padding-bottom: 0,5rem;
+  }
+  
+  section:nth-of-type(1) li {
+    margin-bottom: 1rem;
+  }
+  
+  /* About Us */
+  section:nth-of-type(2) {
+    background-color: var(--black);
+    color: white;
+    padding: 2rem;
+  }
+  
+  section:nth-of-type(2) h2 {
+    color: var(--black); padding-bottom: 0,5rem;
+  }
+
+  .immaginihome2 {display: flex; max-width: 100%;
+    align-items: stretch; justify-content: space-between; padding: 3rem; padding-top: 0; padding-bottom: 0;}
+
+  #foto4 {height: 25%; width: 25%; max-width: 100%}
+  #foto5 {height: 25%; width: 25%; max-width: 100%}
+  #foto6 {height: 25%; width: 25%; max-width: 100%}
+  #foto7 {height: 25%; width: 25%; max-width: 100%}
+  
+  /* Contact Us */
+  section:nth-of-type(3) {
+    background-color: var(--black);
+    color: white;
+    padding: 7rem;
+  }
+  
+  section:nth-of-type(3) h2 {
+    color: white; padding-bottom: 0,5rem;
+  }
+  
+  label,
+  button {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: var(--red);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  /* Font personalizzato */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+/* Stile del testo */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  line-height: 2;
+  color: #000000;
+ margin: 0;
+}
+.container {width: 100%;
+  margin: 0;
+  padding: 0;}
+
+.highlight { color:#fff; text-decoration: underline red}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: rgba(0, 0, 0, 0.503);
+  color: white;
+  padding: 2rem;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-menu a.current {color: red;}
+
+.navbar-menu li {
+  margin-right: 2rem;  font-weight: bold; font-size: 25px;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+}
+#fotologo {margin-top: 0,5rem; margin-bottom: 1rem; height: auto;
+  width: 270px;}
+
+.immaginihome { display: flex;
+  justify-content: center;
+  align-items: center; padding-bottom: 0;} 
+#foto1 {height: 30%; width: 30%; max-width: 100%}
+#foto2 {height: 30%; width: 30%; max-width: 100%}
+#logo2 {height: 25%; width: 25%; max-width: 100%;}
+
+
+
+
+h1, h2, h3 {
+  font-weight: 700;
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'horsemen';
+  src: url('Horsemen.otf') format('truetype');
+}
+h1 {
+  font-family: 'horsemen', sans-serif;
+}
+
+
+h1 {
+  font-size: 1,5rem;
+  margin-bottom: 4rem;
+  color: #fdf7f7; text-decoration: underline;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-decoration: underline red
+}
+
+ul {
+  margin: 3;
+  padding: 3;
+  list-style: none;
+}
+
+/* Header */
+header { padding: 0;
+  text-align: center;
+}
+
+
+section {
+  margin-bottom: 0;
+}
+
+section:last-of-type {
+  margin-bottom: 0;
+}
+
+.immaginihome {padding: 0;}
+
+.map { position: relative;
+  width: 100%;
+  padding-bottom: 26.25%;}
+.map iframe {   position: absolute; width: 100%; height: 100%;}
+
+#chisiamo {padding: 6rem; padding-top: 2rem; padding-bottom: 2rem;}
+
+#citt {padding: 8rem; text-align: center; font-size: 30px; padding-top: 2rem;}
+
+#foto8 {height: 70%; width: 70%; max-width: 100%; padding: 4; margin: 0;}
+.immaginiaboutus { display: flex; justify-content: center; align-items: center;  background-color: var(--black)}
+#foto9 {height: 70%; width: 70%; max-width: 100%; padding: 2; margin: 0;}
+
+.immaginiportfolio {display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;}
+  .immaginiportfolio img {height: 90%; width: 90%; max-width: 100%;}
+
+#clicca {padding-top: 1;
+padding-bottom: 1; background-color: #000000; text-align: center; font-size: 30px; font-weight: bold;}
+
+#sezioneabout {padding-bottom: 1;}
+
+.fototariffa { display: flex; justify-content: center; align-items: center;  background-color: var(--black)}
+#fototariffe {height: 70%; width: 70%; max-width: 100%; padding: 4; margin: 0;}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px;}
+
+th, td { box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  text-align: center;
+  border-bottom: 5px solid #ff0000;
+  border-radius: 15px; 
+color: #000000;}
+
+th {
+  background-color: #ffffff;
+}
+td {background-color: #ffffff;}
+
+.emergenza{ color:#ff0000;  text-decoration: underline rgb(255, 255, 255);}
+
+#sezionetariffa {padding-bottom: 1rem; background-color: #000000;}
+
+.contenimento {
+  display: flex;
+}
+
+.lista1, .lista2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+}
+
+.lista1 li, .lista2 li {
+  margin-right: 200px;
+}
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: underline red;
+}
+
+a:hover {
+  color: red;
+}
+
+.fa-brands fa-instagram {height: 30%; width: 10%; max-width: 100%;}
+
+/* Stile del menu per dispositivi mobili */
+@media screen and (max-width: 768px) {
+   header{padding-right: 3rem;}
+  .navbar {
+    flex-direction: column;
+    align-items: center; 
+    position: static;
+    background-color: #000000;
+    padding-right: 1rem;
+  }
+  main{padding-top: 1rem;}
+
+  .navbar-logo {
+    margin-bottom: 1rem;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .navbar-menu li {
+    font-size: 20px;
+    text-align: center;
+  }
+  .immaginihome {padding: 1;}
+  body {font-size: 15px;}
+  h2{font-size: 20px;}
+
+  #chisiamo {padding-left: 2rem; padding-right: 1rem;}
+  section:nth-of-type(1) {padding: 2rem;}
+
+  section:nth-of-type(2) {padding: 2rem;}
+
+  .immaginihome2{padding: 0rem;}
+  #citt{padding: 1rem; font-size: 15px;}
+
+  #clicca {margin: 0rem; padding: 2rem; font-size: 15px; padding-top: 1rem;}
+
+  .immaginiportfolio {padding: 2rem;}
+
+  section:nth-of-type(3) {padding: 2rem;}
+
+  .lista1, .lista2 {
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    font-size: 15px;
+  }
+  
+  .lista1 li, .lista2 li {
+    margin-right: 15px;
+  }
+}
+
+
+
+
+/* Form  non toccareeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #c20d00;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #ed2315;
+}
+
+/* Footer */
+footer {
+  background-color: #010101;
+  color: #ff0000;
+  text-align: center;
+  padding: 1rem;
+}
+.navbar {
+  width: 100%; }
+
+  main{padding-top: 7rem; background-color: #000000;}
+
+  .navbar-menu li{padding-right: 2rem;}
+
+#citt{background-color: #000000; color: white;}
