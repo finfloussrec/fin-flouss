@@ -200,7 +200,7 @@ section:last-of-type {
 .immaginiportfolio {display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;}
-  .immaginiportfolio img {height: 90%; width: 90%; max-width: 100%;}
+  .immaginiportfolio img {height: 100%; width: 100%; max-width: 100%;}
 
 #clicca {padding-top: 1;
 padding-bottom: 1; background-color: #000000; text-align: center; font-size: 30px; font-weight: bold;}
