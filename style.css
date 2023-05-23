@@ -4,6 +4,8 @@
     --red: #ff0000;
   }
  #docu {text-align: center;  letter-spacing: 10px;}
+  #docim1 {height: 90%; width: 90%; max-width: 100%; align-items: center;}
+  #docim2 {height: 90%; width: 90%; max-width: 100%; align-items: center;}
 
   #contt{padding-left: 10rem;}
 
